@@ -21,11 +21,11 @@ const test = async () => {
   // 요일: (월: 0 ~ 금: 4)
   // 교시: 1교시(0), 2교시(1), 3교시(2)..
   // 3학년 8반 화요일 1교시 시간표
-  console.log(result[3][8][1][0])
-  console.log('====================')
+  document.write(result[3][8][1][0])
+  document.write('====================')
 
   // 각 교시별 수업 시작/종료 시간
-  console.log(timetable.getClassTime())
+  document.write(timetable.getClassTime())
 }
 
 test()
